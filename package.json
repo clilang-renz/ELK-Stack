@@ -1,0 +1,19 @@
+{
+  "name": "elk-nodejs",
+  "version": "1.0.0",
+  "description": "This is an basic application for ELK setup using nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Piyush Mittal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "elastic-apm-node": "^3.18.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "nodemon": "^2.0.12"
+  }
+}
